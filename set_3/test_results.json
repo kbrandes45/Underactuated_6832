@@ -1,0 +1,57 @@
+{
+    "execution_time": "1.45", 
+    "tests": [
+        {
+            "score": 4, 
+            "max_score": 4, 
+            "name": "Problem 2_1: Finding Q"
+        }, 
+        {
+            "score": 2, 
+            "max_score": 2, 
+            "name": "Problem 3_1: Linearization, A matrix"
+        }, 
+        {
+            "score": 2, 
+            "max_score": 2, 
+            "name": "Problem 3_1: Linearization, B matrix"
+        }, 
+        {
+            "output": "Test Failed: Controllability for A = [[ 1.  0.]\n [ 0.  1.]], B = [[ 1.  0.]\n [ 0.  1.]] should have been True\n", 
+            "score": 0.0, 
+            "max_score": 2, 
+            "name": "Problem 3.2: Controllability"
+        }, 
+        {
+            "output": "Test Failed: x0 = [ 3.192  0.     0.     0.   ] did not converge to the upright fixed point. Final state was instead [ 3.393 -0.295  0.557 -0.752]\n", 
+            "score": 0.0, 
+            "max_score": 4, 
+            "name": "Problem 3.3: LQR"
+        }, 
+        {
+            "score": 2, 
+            "max_score": 2, 
+            "name": "Problem 3.4: LQR ROA, Prologue"
+        }, 
+        {
+            "output": "Test Failed: V([  6.804  42.56  -42.896 -41.287]) was nonpositive.\n", 
+            "score": 0.0, 
+            "max_score": 2, 
+            "name": "Problem 3.5: LQR ROA, Evaluating F, V, and Vdot"
+        }, 
+        {
+            "output": "Test Failed: rho should be bigger than 0.\n", 
+            "score": 0.0, 
+            "max_score": 3, 
+            "name": "Problem 3.6: LQR ROA, Numerical estimate of the ROA"
+        }, 
+        {
+            "output": "Test Failed: x0 = [ 0.  0.  0.  0.] did not converge to the upright fixed point. Final state was instead [ 0.  0.  0.  0.]\n", 
+            "score": 0.0, 
+            "max_score": 4, 
+            "name": "Problem 3.8: Combined Swing-Up and Stabilization"
+        }
+    ], 
+    "score": 10.0, 
+    "leaderboard": []
+}
